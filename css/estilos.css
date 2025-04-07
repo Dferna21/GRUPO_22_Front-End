@@ -1,0 +1,39 @@
+
+/* Hero section con imagen de fondo y overlay */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+               url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Estilo para el logo */
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Animación hover para tarjetas de productos */
+.productos-card {
+    transition: transform 0.3s;
+}
+.productos-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Sección de testimonios */
+.testimonios {
+    background: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* Iconos de redes sociales */
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
